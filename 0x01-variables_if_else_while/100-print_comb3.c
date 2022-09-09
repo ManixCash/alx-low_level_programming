@@ -33,7 +33,7 @@ putchar(digit);
 
 putchar(innerDigit);
 
- 
+
 if (digit == '8' && innerDigit == '9')
 
 {
@@ -53,7 +53,5 @@ putchar(' ');
 }
 
 putchar('\n');
-
 return (0);
-
 }
