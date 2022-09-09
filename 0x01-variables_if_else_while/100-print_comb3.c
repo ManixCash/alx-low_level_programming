@@ -34,7 +34,7 @@ putchar(digit);
 putchar(innerDigit);
 
 
-
+ 
 if (digit == '8' && innerDigit == '9')
 
 {
