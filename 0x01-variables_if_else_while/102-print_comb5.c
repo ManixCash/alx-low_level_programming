@@ -34,27 +34,15 @@ putchar(' ');
 putchar((innerDigit / 10) + '0');
 
 putchar((innerDigit % 10) + '0');
-
 if (innerDigit == 99 && digit == 98)
-
 {
-
 continue;
-
 }
-
 putchar(',');
 
 putchar(' ');
-
-
-
 }
-
 }
-
 putchar('\n');
-
 return (0);
-
 }
