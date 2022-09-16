@@ -29,11 +29,13 @@ copy /= 10, size *= 10;
 }
 while (size > 0)
 {
-
 nth = n / size;
+
 _putchar('0' + nth);
-n -= nth *size;
+
+n -= nth * size;
 size /= 10;
+
 }
 }
 _putchar('0' + ones);
