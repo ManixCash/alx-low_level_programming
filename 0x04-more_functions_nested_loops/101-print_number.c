@@ -32,7 +32,7 @@ while (size > 0)
 nth = n / size;
 _putchar('0' + nth);
 n -= nth *size;
-size /= 10;  
+size /= 10;
 }
 }
 _putchar('0' + ones);
