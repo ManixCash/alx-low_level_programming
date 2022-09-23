@@ -44,8 +44,9 @@ _putchar('0');
 else
 {
 while (n / power == 0)
+{
 power /= 10;
-
+}
 while (power >= 1)
 {
 _putchar((n / power) +'0');
