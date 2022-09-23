@@ -27,9 +27,7 @@ return (base);
  */
 
 void print_number(int n)
-
 {
-
 int power;
 power = base10(8);
 
@@ -38,7 +36,6 @@ if (n < 0)
 _putchar('-');
 n *= -1;
 }
-
 if (n == 0)
 _putchar('0');
 else
