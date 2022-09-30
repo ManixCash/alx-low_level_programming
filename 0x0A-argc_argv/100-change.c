@@ -30,7 +30,7 @@ coins++;
 if ((cents - 25) >= 0)
 {
 cents -= 25;
-continue; 
+continue;
 }
 if ((cents - 10) >= 0)
 {
