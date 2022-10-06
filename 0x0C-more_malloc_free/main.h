@@ -1,9 +1,3 @@
-#ifndef MAIN_H
-
-#define MAIN_H
-
-
-
 void _puts(char *str);
 
 void *malloc_checked(unsigned int b);
@@ -21,9 +15,3 @@ int _putchar(char c);
 int _atoi(const char *s);
 
 void print_int(unsigned long int n);
-
-
-
-
-
-#endif
