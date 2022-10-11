@@ -1,7 +1,11 @@
 #include "dog.h"
 #include <stdlib.h>
+
 /**
  * new_dog - creates a new dog structure
+ * @name: Dog's name
+ * @age: Dog's age
+ * @owner: Dog's owner
  * Return: returns a pointer to newly created dog structure
  */
 dog_t *new_dog(char *name, float age, char *owner)
@@ -46,8 +50,5 @@ for (i = 0; owner[i]; i++)
 cpyowner[i] = owner[i];
 }
 cpyowner[i] = '\0';
-new_dog->name = cpyname;
-new_dog->age = age;
-new_dog->owner = cpyowner;
 return (new_dog);
 }
