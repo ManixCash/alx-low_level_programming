@@ -8,11 +8,8 @@
  * @owner: Dog's owner
  * Return: returns a pointer to newly created dog structure
  */
-
 dog_t *new_dog(char *name, float age, char *owner)
-
 {
-
 dog_t *new_dog;
 char *cpyname, *cpyowner;
 int len_name = 0, len_owner = 0, i;
